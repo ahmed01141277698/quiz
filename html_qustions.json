@@ -1,252 +1,202 @@
 [
-  {
-    "question": "ما هو وسم البداية لأي مستند HTML صحيح؟",
-    "options": ["<html>", "<head>", "<!DOCTYPE html>", "<body>"],
-    "answer": "<!DOCTYPE html>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف أكبر عنوان؟",
-    "options": ["<h6>", "<heading>", "<h1>", "<head>"],
-    "answer": "<h1>"
-  },
-  {
-    "question": "أي وسم يُستخدم لكتابة فقرة نصية؟",
-    "options": ["<paragraph>", "<p>", "<text>", "<para>"],
-    "answer": "<p>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لإضافة رابط؟",
-    "options": ["<a>", "<link>", "<href>", "<url>"],
-    "answer": "<a>"
-  },
-  {
-    "question": "أي وسم يُستخدم لإضافة صورة؟",
-    "options": ["<image>", "<src>", "<pic>", "<img>"],
-    "answer": "<img>"
-  },
-  {
-    "question": "في وسم <img> أي خاصية تُستخدم لتحديد مسار الصورة؟",
-    "options": ["alt", "src", "href", "path"],
-    "answer": "src"
-  },
-  {
-    "question": "أي خاصية في <img> تُستخدم لوصف الصورة النصي؟",
-    "options": ["desc", "title", "alt", "longdesc"],
-    "answer": "alt"
-  },
-  {
-    "question": "أي وسم يُستخدم لإنشاء قائمة غير مرتبة؟",
-    "options": ["<ol>", "<li>", "<ul>", "<list>"],
-    "answer": "<ul>"
-  },
-  {
-    "question": "أي وسم يُستخدم لإنشاء قائمة مرتبة؟",
-    "options": ["<ul>", "<ol>", "<dl>", "<dir>"],
-    "answer": "<ol>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف عنصر في القائمة؟",
-    "options": ["<li>", "<ol>", "<ul>", "<dl>"],
-    "answer": "<li>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف جدول؟",
-    "options": ["<table>", "<tab>", "<grid>", "<t>"],
-    "answer": "<table>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف صف داخل جدول؟",
-    "options": ["<tr>", "<td>", "<row>", "<line>"],
-    "answer": "<tr>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف خلية بيانات داخل جدول؟",
-    "options": ["<row>", "<td>", "<th>", "<tr>"],
-    "answer": "<td>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف عنوان خلية في الجدول؟",
-    "options": ["<td>", "<th>", "<header>", "<heading>"],
-    "answer": "<th>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لإضافة سطر فاصل؟",
-    "options": ["<line>", "<hr>", "<br>", "<border>"],
-    "answer": "<hr>"
-  },
-  {
-    "question": "أي وسم يُستخدم لإضافة كسر سطر؟",
-    "options": ["<break>", "<lb>", "<br>", "<line>"],
-    "answer": "<br>"
-  },
-  {
-    "question": "ما هو الوسم الصحيح لتعريف قسم (div)؟",
-    "options": ["<section>", "<div>", "<part>", "<block>"],
-    "answer": "<div>"
-  },
-  {
-    "question": "ما هو الوسم الصحيح لتعريف جزء نصي صغير (span)؟",
-    "options": ["<small>", "<span>", "<inline>", "<section>"],
-    "answer": "<span>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف إدخال بيانات؟",
-    "options": ["<input>", "<enter>", "<textbox>", "<form>"],
-    "answer": "<input>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف نموذج (form)؟",
-    "options": ["<form>", "<input>", "<submit>", "<field>"],
-    "answer": "<form>"
-  },
-  {
-    "question": "أي خاصية تُستخدم لتحديد الرابط في وسم <a>؟",
-    "options": ["link", "src", "href", "url"],
-    "answer": "href"
-  },
-  {
-    "question": "ما هو الوسم الصحيح لتعريف مقطع فيديو؟",
-    "options": ["<media>", "<movie>", "<video>", "<vid>"],
-    "answer": "<video>"
-  },
-  {
-    "question": "ما هو الوسم الصحيح لتعريف ملف صوتي؟",
-    "options": ["<music>", "<sound>", "<audio>", "<media>"],
-    "answer": "<audio>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف زر؟",
-    "options": ["<btn>", "<submit>", "<button>", "<input type='button'>"],
-    "answer": "<button>"
-  },
-  {
-    "question": "أي خاصية تُستخدم لجعل حقل الإدخال إجباري؟",
-    "options": ["check", "required", "validate", "must"],
-    "answer": "required"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف عنوان الصفحة في المتصفح؟",
-    "options": ["<meta>", "<title>", "<head>", "<header>"],
-    "answer": "<title>"
-  },
-  {
-    "question": "ما هو الوسم الذي يحتوي على المعلومات الوصفية (metadata)؟",
-    "options": ["<meta>", "<head>", "<title>", "<info>"],
-    "answer": "<head>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف الفوتر (footer)؟",
-    "options": ["<bottom>", "<footer>", "<foot>", "<end>"],
-    "answer": "<footer>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف الهيدر (header)؟",
-    "options": ["<head>", "<header>", "<top>", "<section>"],
-    "answer": "<header>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف شريط التنقل؟",
-    "options": ["<menu>", "<navbar>", "<nav>", "<bar>"],
-    "answer": "<nav>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف مقالة؟",
-    "options": ["<post>", "<section>", "<article>", "<content>"],
-    "answer": "<article>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف جزء جانبي (sidebar)؟",
-    "options": ["<aside>", "<sidebar>", "<left>", "<right>"],
-    "answer": "<aside>"
-  },
-  {
-    "question": "أي وسم يُستخدم لعرض كود برمجي؟",
-    "options": ["<script>", "<code>", "<pre>", "<kbd>"],
-    "answer": "<code>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف نص ثابت الشكل (preformatted)?",
-    "options": ["<text>", "<code>", "<pre>", "<fixed>"],
-    "answer": "<pre>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف JavaScript في الصفحة؟",
-    "options": ["<script>", "<js>", "<javascript>", "<code>"],
-    "answer": "<script>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف ملف CSS خارجي؟",
-    "options": ["<style>", "<css>", "<link>", "<import>"],
-    "answer": "<link>"
-  },
-  {
-    "question": "أي خاصية في <link> تُستخدم لربط CSS؟",
-    "options": ["src", "href", "rel", "type"],
-    "answer": "href"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف نمط CSS داخل الصفحة؟",
-    "options": ["<css>", "<style>", "<link>", "<design>"],
-    "answer": "<style>"
-  },
-  {
-    "question": "أي خاصية تُستخدم لتحديد نوع المحتوى (charset)؟",
-    "options": ["lang", "meta", "charset", "type"],
-    "answer": "charset"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف قائمة تعريفية؟",
-    "options": ["<dl>", "<list>", "<dir>", "<ul>"],
-    "answer": "<dl>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف مصطلح داخل قائمة تعريفية؟",
-    "options": ["<dt>", "<dd>", "<li>", "<term>"],
-    "answer": "<dt>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف وصف المصطلح في قائمة تعريفية؟",
-    "options": ["<desc>", "<dt>", "<dd>", "<def>"],
-    "answer": "<dd>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لإضافة تعليق في HTML؟",
-    "options": ["// comment", "<!-- comment -->", "/* comment */", "<comment>"],
-    "answer": "<!-- comment -->"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف إطار iframe؟",
-    "options": ["<frame>", "<iframe>", "<window>", "<embed>"],
-    "answer": "<iframe>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف خط أفقي؟",
-    "options": ["<line>", "<hr>", "<border>", "<br>"],
-    "answer": "<hr>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف حقل اختيار متعدد؟",
-    "options": ["<input type='radio'>", "<input type='checkbox'>", "<select>", "<option>"],
-    "answer": "<input type='checkbox'>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف حقل اختيار واحد فقط؟",
-    "options": ["<input type='checkbox'>", "<input type='radio'>", "<select>", "<option>"],
-    "answer": "<input type='radio'>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف قائمة منسدلة؟",
-    "options": ["<list>", "<dropdown>", "<select>", "<menu>"],
-    "answer": "<select>"
-  },
-  {
-    "question": "أي وسم يُستخدم لتعريف خيار داخل القائمة المنسدلة؟",
-    "options": ["<option>", "<select>", "<choice>", "<li>"],
-    "answer": "<option>"
-  },
-  {
-    "question": "ما هو الوسم المستخدم لتعريف عنصر رئيسي في الصفحة؟",
-    "options": ["<body>", "<main>", "<section>", "<content>"],
-    "answer": "<main>"
-  }
+    {
+        "title": "أي عنصر HTML يُستخدم لتعريف مستند كـ تطبيق ويب (لـ Progressive Web Apps)؟",
+        "answer_1": "<meta name='viewport'>",
+        "answer_2": "<link rel='manifest'>",
+        "answer_3": "<script type='module'>",
+        "answer_4": "<meta charset='UTF-8'>",
+        "right_answer": "<link rel='manifest'>"
+    },
+    {
+        "title": "ما هو الفرق بين الخاصية defer والخاصية async عند تحميل ملفات JavaScript؟",
+        "answer_1": "defer يحمل الكود ويوقف تحميل HTML",
+        "answer_2": "async يحمل الكود بعد تحميل الصفحة فقط",
+        "answer_3": "async ينفذ الكود فور تحميله و defer يؤجل التنفيذ لحين اكتمال الـ DOM",
+        "answer_4": "كلاهما يعملان نفس الشيء",
+        "right_answer": "async ينفذ الكود فور تحميله و defer يؤجل التنفيذ لحين اكتمال الـ DOM"
+    },
+    {
+        "title": "أي عنصر HTML يُستخدم لربط صفحة خارجية بخطوط Google Fonts؟",
+        "answer_1": "<font>",
+        "answer_2": "<style>",
+        "answer_3": "<link>",
+        "answer_4": "<script>",
+        "right_answer": "<link>"
+    },
+    {
+        "title": "في HTML5 أي عنصر يُستخدم لتعريف منطقة للرسم ثنائي الأبعاد؟",
+        "answer_1": "<canvas>",
+        "answer_2": "<svg>",
+        "answer_3": "<graphic>",
+        "answer_4": "<draw>",
+        "right_answer": "<canvas>"
+    },
+    {
+        "title": "ما الفرق بين <canvas> و <svg>؟",
+        "answer_1": "canvas يعتمد على المتجهات و svg على البكسلات",
+        "answer_2": "svg يعتمد على المتجهات و canvas على البكسلات",
+        "answer_3": "كلاهما يستخدم البكسلات فقط",
+        "answer_4": "كلاهما يستخدم المتجهات فقط",
+        "right_answer": "svg يعتمد على المتجهات و canvas على البكسلات"
+    },
+    {
+        "title": "ما العنصر الصحيح لتعريف نص تم إدخاله بواسطة المستخدم (مثل الكيبورد)؟",
+        "answer_1": "<kbd>",
+        "answer_2": "<samp>",
+        "answer_3": "<code>",
+        "answer_4": "<var>",
+        "right_answer": "<kbd>"
+    },
+    {
+        "title": "أي وسم HTML5 يُستخدم لتعريف محتوى قابل للبحث في محركات البحث بشكل أدق؟",
+        "answer_1": "<meta>",
+        "answer_2": "<section>",
+        "answer_3": "<article>",
+        "answer_4": "<header>",
+        "right_answer": "<article>"
+    },
+    {
+        "title": "ما الفرق بين <strong> و <b>؟",
+        "answer_1": "لا فرق بينهما",
+        "answer_2": "<strong> يعطي معنى دلالي و <b> فقط تنسيق بصري",
+        "answer_3": "<b> أقوى دلاليًا من <strong>",
+        "answer_4": "كلاهما يعطيان نفس الدلالة",
+        "right_answer": "<strong> يعطي معنى دلالي و <b> فقط تنسيق بصري"
+    },
+    {
+        "title": "ما العنصر المناسب لتعريف وقت وتاريخ محدد؟",
+        "answer_1": "<date>",
+        "answer_2": "<time>",
+        "answer_3": "<datetime>",
+        "answer_4": "<clock>",
+        "right_answer": "<time>"
+    },
+    {
+        "title": "ما العنصر المناسب لتعريف محتوى يتم تحديثه باستمرار مثل الأخبار؟",
+        "answer_1": "<live>",
+        "answer_2": "<update>",
+        "answer_3": "<marquee>",
+        "answer_4": "<aside>",
+        "right_answer": "<marquee>"
+    },
+    {
+        "title": "ما الخاصية الصحيحة لتشغيل الفيديو تلقائيًا داخل <video>؟",
+        "answer_1": "autoplay",
+        "answer_2": "loop",
+        "answer_3": "controls",
+        "answer_4": "auto",
+        "right_answer": "autoplay"
+    },
+    {
+        "title": "ما الفرق بين <em> و <i>؟",
+        "answer_1": "<i> يستخدم للزينة فقط و <em> للدلالة على التأكيد",
+        "answer_2": "لا يوجد فرق",
+        "answer_3": "<i> للتأكيد و <em> للزينة",
+        "answer_4": "<i> أقوى من <em>",
+        "right_answer": "<i> يستخدم للزينة فقط و <em> للدلالة على التأكيد"
+    },
+    {
+        "title": "ما هو العنصر الذي يُستخدم لتعريف نطاق الملاحة في الصفحة؟",
+        "answer_1": "<menu>",
+        "answer_2": "<nav>",
+        "answer_3": "<header>",
+        "answer_4": "<aside>",
+        "right_answer": "<nav>"
+    },
+    {
+        "title": "أي وسم يُستخدم لعرض ناتج كود برمجي (Output)؟",
+        "answer_1": "<output>",
+        "answer_2": "<code>",
+        "answer_3": "<samp>",
+        "answer_4": "<result>",
+        "right_answer": "<output>"
+    },
+    {
+        "title": "ما الخاصية الصحيحة لجعل عنصر <audio> يعمل تلقائيًا؟",
+        "answer_1": "loop",
+        "answer_2": "autoplay",
+        "answer_3": "controls",
+        "answer_4": "sound",
+        "right_answer": "autoplay"
+    },
+    {
+        "title": "أي عنصر HTML يستخدم لتعريف جزء يُمكن طيه أو كشفه (collapse/expand)؟",
+        "answer_1": "<details>",
+        "answer_2": "<summary>",
+        "answer_3": "<dialog>",
+        "answer_4": "<section>",
+        "right_answer": "<details>"
+    },
+    {
+        "title": "ما هو الوسم المستخدم لتعريف مربع حوار تفاعلي (Modal)؟",
+        "answer_1": "<dialog>",
+        "answer_2": "<popup>",
+        "answer_3": "<modal>",
+        "answer_4": "<div>",
+        "right_answer": "<dialog>"
+    },
+    {
+        "title": "ما العنصر المناسب لتعريف عنوان لمجموعة من عناصر الإدخال داخل form؟",
+        "answer_1": "<label>",
+        "answer_2": "<legend>",
+        "answer_3": "<fieldset>",
+        "answer_4": "<caption>",
+        "right_answer": "<legend>"
+    },
+    {
+        "title": "أي عنصر يستخدم مع <fieldset> لتجميع عناصر form مرتبطة؟",
+        "answer_1": "<legend>",
+        "answer_2": "<group>",
+        "answer_3": "<caption>",
+        "answer_4": "<label>",
+        "right_answer": "<fieldset>"
+    },
+    {
+        "title": "ما هو الفرق بين <section> و <div>؟",
+        "answer_1": "<section> عنصر دلالي له معنى و <div> عنصر بلا معنى",
+        "answer_2": "كلاهما بلا معنى",
+        "answer_3": "<div> أقوى دلاليًا",
+        "answer_4": "<section> يُستخدم فقط للتنسيق",
+        "right_answer": "<section> عنصر دلالي له معنى و <div> عنصر بلا معنى"
+    },
+    {
+        "title": "أي عنصر HTML يُستخدم لتعريف جزء نصي قصير يمكن تمرير الماوس عليه ليظهر شرح؟",
+        "answer_1": "<tooltip>",
+        "answer_2": "<title>",
+        "answer_3": "<abbr>",
+        "answer_4": "<info>",
+        "right_answer": "<abbr>"
+    },
+    {
+        "title": "ما العنصر المناسب لتعريف قيمة متغيرة رياضية داخل النص؟",
+        "answer_1": "<var>",
+        "answer_2": "<code>",
+        "answer_3": "<samp>",
+        "answer_4": "<em>",
+        "right_answer": "<var>"
+    },
+    {
+        "title": "أي عنصر HTML يسمح بفتح قائمة خيارات عند إدخال النص في input؟",
+        "answer_1": "<options>",
+        "answer_2": "<list>",
+        "answer_3": "<datalist>",
+        "answer_4": "<select>",
+        "right_answer": "<datalist>"
+    },
+    {
+        "title": "ما العنصر المستخدم لتعريف خريطة صور (Image Map)؟",
+        "answer_1": "<imgmap>",
+        "answer_2": "<map>",
+        "answer_3": "<area>",
+        "answer_4": "<canvas>",
+        "right_answer": "<map>"
+    },
+    {
+        "title": "ما العنصر المستخدم لتعريف منطقة قابلة للنقر داخل خريطة الصور؟",
+        "answer_1": "<hotspot>",
+        "answer_2": "<area>",
+        "answer_3": "<spot>",
+        "answer_4": "<link>",
+        "right_answer": "<area>"
+    }
 ]
