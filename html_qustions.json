@@ -1,42 +1,252 @@
 [
-    {
-        "title": "fjfhwfew",
-        "answer_1": " qw ",
-        "answer_2": "f f",
-        "answer_3": "ytyyu f ",
-        "answer_4": "thht thth",
-        "right_answer": " thht thth "
-    },
-    {
-        "title": " tujytiyyuilu",
-        "answer_1": "5468d ",
-        "answer_2": "fretg",
-        "answer_3": "4454 ",
-        "answer_4": "8845 ",
-        "right_answer": "8845"
-    },
-    {
-        "title": "47854",
-        "answer_1": "freg",
-        "answer_2": "ggrh",
-        "answer_3": "hgrth",
-        "answer_4": "thtr htrh hth ",
-        "right_answer": "ggrh"
-    },
-    {
-        "title": "what is ahmed badawy",
-        "answer_1": " student ",
-        "answer_2": "doctor",
-        "answer_3": "profsor",
-        "answer_4": "dr",
-        "right_answer": "student"
-    },
-    {
-        "title": "rgrgehtrh",
-        "answer_1": "ukykiu lo",
-        "answer_2": "uyiyiyu uyi ",
-        "answer_3": "8587 ",
-        "answer_4": "485",
-        "right_answer": "85 4 "
-    }
+  {
+    "question": "ما هو وسم البداية لأي مستند HTML صحيح؟",
+    "options": ["<html>", "<head>", "<!DOCTYPE html>", "<body>"],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف أكبر عنوان؟",
+    "options": ["<h6>", "<heading>", "<h1>", "<head>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "أي وسم يُستخدم لكتابة فقرة نصية؟",
+    "options": ["<paragraph>", "<p>", "<text>", "<para>"],
+    "answer": "<p>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لإضافة رابط؟",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "أي وسم يُستخدم لإضافة صورة؟",
+    "options": ["<image>", "<src>", "<pic>", "<img>"],
+    "answer": "<img>"
+  },
+  {
+    "question": "في وسم <img> أي خاصية تُستخدم لتحديد مسار الصورة؟",
+    "options": ["alt", "src", "href", "path"],
+    "answer": "src"
+  },
+  {
+    "question": "أي خاصية في <img> تُستخدم لوصف الصورة النصي؟",
+    "options": ["desc", "title", "alt", "longdesc"],
+    "answer": "alt"
+  },
+  {
+    "question": "أي وسم يُستخدم لإنشاء قائمة غير مرتبة؟",
+    "options": ["<ol>", "<li>", "<ul>", "<list>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "أي وسم يُستخدم لإنشاء قائمة مرتبة؟",
+    "options": ["<ul>", "<ol>", "<dl>", "<dir>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف عنصر في القائمة؟",
+    "options": ["<li>", "<ol>", "<ul>", "<dl>"],
+    "answer": "<li>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف جدول؟",
+    "options": ["<table>", "<tab>", "<grid>", "<t>"],
+    "answer": "<table>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف صف داخل جدول؟",
+    "options": ["<tr>", "<td>", "<row>", "<line>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف خلية بيانات داخل جدول؟",
+    "options": ["<row>", "<td>", "<th>", "<tr>"],
+    "answer": "<td>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف عنوان خلية في الجدول؟",
+    "options": ["<td>", "<th>", "<header>", "<heading>"],
+    "answer": "<th>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لإضافة سطر فاصل؟",
+    "options": ["<line>", "<hr>", "<br>", "<border>"],
+    "answer": "<hr>"
+  },
+  {
+    "question": "أي وسم يُستخدم لإضافة كسر سطر؟",
+    "options": ["<break>", "<lb>", "<br>", "<line>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "ما هو الوسم الصحيح لتعريف قسم (div)؟",
+    "options": ["<section>", "<div>", "<part>", "<block>"],
+    "answer": "<div>"
+  },
+  {
+    "question": "ما هو الوسم الصحيح لتعريف جزء نصي صغير (span)؟",
+    "options": ["<small>", "<span>", "<inline>", "<section>"],
+    "answer": "<span>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف إدخال بيانات؟",
+    "options": ["<input>", "<enter>", "<textbox>", "<form>"],
+    "answer": "<input>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف نموذج (form)؟",
+    "options": ["<form>", "<input>", "<submit>", "<field>"],
+    "answer": "<form>"
+  },
+  {
+    "question": "أي خاصية تُستخدم لتحديد الرابط في وسم <a>؟",
+    "options": ["link", "src", "href", "url"],
+    "answer": "href"
+  },
+  {
+    "question": "ما هو الوسم الصحيح لتعريف مقطع فيديو؟",
+    "options": ["<media>", "<movie>", "<video>", "<vid>"],
+    "answer": "<video>"
+  },
+  {
+    "question": "ما هو الوسم الصحيح لتعريف ملف صوتي؟",
+    "options": ["<music>", "<sound>", "<audio>", "<media>"],
+    "answer": "<audio>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف زر؟",
+    "options": ["<btn>", "<submit>", "<button>", "<input type='button'>"],
+    "answer": "<button>"
+  },
+  {
+    "question": "أي خاصية تُستخدم لجعل حقل الإدخال إجباري؟",
+    "options": ["check", "required", "validate", "must"],
+    "answer": "required"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف عنوان الصفحة في المتصفح؟",
+    "options": ["<meta>", "<title>", "<head>", "<header>"],
+    "answer": "<title>"
+  },
+  {
+    "question": "ما هو الوسم الذي يحتوي على المعلومات الوصفية (metadata)؟",
+    "options": ["<meta>", "<head>", "<title>", "<info>"],
+    "answer": "<head>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف الفوتر (footer)؟",
+    "options": ["<bottom>", "<footer>", "<foot>", "<end>"],
+    "answer": "<footer>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف الهيدر (header)؟",
+    "options": ["<head>", "<header>", "<top>", "<section>"],
+    "answer": "<header>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف شريط التنقل؟",
+    "options": ["<menu>", "<navbar>", "<nav>", "<bar>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف مقالة؟",
+    "options": ["<post>", "<section>", "<article>", "<content>"],
+    "answer": "<article>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف جزء جانبي (sidebar)؟",
+    "options": ["<aside>", "<sidebar>", "<left>", "<right>"],
+    "answer": "<aside>"
+  },
+  {
+    "question": "أي وسم يُستخدم لعرض كود برمجي؟",
+    "options": ["<script>", "<code>", "<pre>", "<kbd>"],
+    "answer": "<code>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف نص ثابت الشكل (preformatted)?",
+    "options": ["<text>", "<code>", "<pre>", "<fixed>"],
+    "answer": "<pre>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف JavaScript في الصفحة؟",
+    "options": ["<script>", "<js>", "<javascript>", "<code>"],
+    "answer": "<script>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف ملف CSS خارجي؟",
+    "options": ["<style>", "<css>", "<link>", "<import>"],
+    "answer": "<link>"
+  },
+  {
+    "question": "أي خاصية في <link> تُستخدم لربط CSS؟",
+    "options": ["src", "href", "rel", "type"],
+    "answer": "href"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف نمط CSS داخل الصفحة؟",
+    "options": ["<css>", "<style>", "<link>", "<design>"],
+    "answer": "<style>"
+  },
+  {
+    "question": "أي خاصية تُستخدم لتحديد نوع المحتوى (charset)؟",
+    "options": ["lang", "meta", "charset", "type"],
+    "answer": "charset"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف قائمة تعريفية؟",
+    "options": ["<dl>", "<list>", "<dir>", "<ul>"],
+    "answer": "<dl>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف مصطلح داخل قائمة تعريفية؟",
+    "options": ["<dt>", "<dd>", "<li>", "<term>"],
+    "answer": "<dt>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف وصف المصطلح في قائمة تعريفية؟",
+    "options": ["<desc>", "<dt>", "<dd>", "<def>"],
+    "answer": "<dd>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لإضافة تعليق في HTML؟",
+    "options": ["// comment", "<!-- comment -->", "/* comment */", "<comment>"],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف إطار iframe؟",
+    "options": ["<frame>", "<iframe>", "<window>", "<embed>"],
+    "answer": "<iframe>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف خط أفقي؟",
+    "options": ["<line>", "<hr>", "<border>", "<br>"],
+    "answer": "<hr>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف حقل اختيار متعدد؟",
+    "options": ["<input type='radio'>", "<input type='checkbox'>", "<select>", "<option>"],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف حقل اختيار واحد فقط؟",
+    "options": ["<input type='checkbox'>", "<input type='radio'>", "<select>", "<option>"],
+    "answer": "<input type='radio'>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف قائمة منسدلة؟",
+    "options": ["<list>", "<dropdown>", "<select>", "<menu>"],
+    "answer": "<select>"
+  },
+  {
+    "question": "أي وسم يُستخدم لتعريف خيار داخل القائمة المنسدلة؟",
+    "options": ["<option>", "<select>", "<choice>", "<li>"],
+    "answer": "<option>"
+  },
+  {
+    "question": "ما هو الوسم المستخدم لتعريف عنصر رئيسي في الصفحة؟",
+    "options": ["<body>", "<main>", "<section>", "<content>"],
+    "answer": "<main>"
+  }
 ]
